@@ -1,0 +1,609 @@
+* {
+    background-color: #050505;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box; 
+}
+
+
+
+
+/* MAIN DIV HERE */
+
+#maindv {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+/* nav div */
+
+
+#sidenav {
+    background-color: #222222;
+    display: list-item;
+    /* border: 1px solid white; */
+    height: 790px;
+    width: 7.5%;
+    position: sticky;
+    top: 0;
+    box-shadow: rgba(169, 169, 214, 0.25) 0px 6px 12px -2px, rgba(103, 98, 98, 0.3) 0px 3px 7px -3px;
+}
+
+#imgdiv {
+    height: 15%;
+    width: 100%;
+    /* background-color: rgba(255, 255, 255, 0.5); */
+}
+
+#imgnv {
+    height: 100%;
+    width: 100%;
+    filter: brightness(80%);
+    display: inline-block;
+    position: relative;
+    border: 1px solid #222222;
+}
+
+
+
+.optionsnv {
+    background-color: #222222;
+    /* border: 1px solid white; */
+    height: 13%;
+    text-align: center;
+    display: list-item;
+} 
+
+
+a {
+    text-decoration: none;
+    background-color: #222222;
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    padding-bottom: 6%;
+}
+
+i {
+    background-color: #222222;
+    color: #ffffff;
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 400;
+    padding-top: 20%;
+    padding-bottom: 12%;
+}
+
+span {
+    text-decoration: none;
+    background-color: #222222;
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    padding-bottom: 6%;
+}
+
+button {
+    height: 100%;
+    width: 100%;
+    background-color: #222222;
+    border: none;
+}
+
+button:hover {
+    box-shadow: rgba(252, 252, 252, 0.16) 0px 10px 36px 0px, rgba(239, 134, 134, 0.06) 0px 0px 0px 1px;
+}
+
+
+
+
+
+
+
+/* MAIN BODY DIV HERE */
+
+#mainbodydiv {
+    width: 85%;
+    /* border: 1px solid white; */
+    max-width: 1100px; /* Set a max width for the content */
+    margin: 0 auto;
+}
+
+#bdheaddv {
+    align-items: center;
+    /* border: 2px solid white; */
+    width: 100%;
+    height: 210px;
+}
+
+#bdheading {
+    color: #ffffff;
+    text-align: center;
+    font-size: 64px;
+    line-height: 96px;
+    font-weight: 400;
+    padding-top: 20px;
+    margin-bottom: 0px;
+}
+
+#profession {
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 0px;
+}
+
+
+
+/* BODY IMG HERE */
+
+#bdimgdv {
+/* border: 1px solid greenyellow; */
+width: 100%;
+height: 650px;
+
+
+}
+
+
+.bdimg {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+/* PERSONAL DETAILS */
+
+#prsnldtls {
+    margin-top: 10px;
+    width: 100%;
+    height: fit-content;
+    text-align: justify; 
+}
+
+.nameprsnldv {
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 400;
+    color: #f1f1f1;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#nmeline {
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: 400;
+    color: #757575;
+}
+
+#intro {
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: 400;
+    color: #757575;
+    margin-bottom: 40px;
+    width: 95%;
+    text-align: justify; 
+    padding: 0 20px;
+}
+
+
+
+/* SKILLS  */
+
+#Skillsdv {
+    width: 100%;
+    border: 1px solid white;
+    margin-top: 20px;
+    max-width: 1000px
+}
+
+.sklshd {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #f1f1f1;
+    padding-top: 5%;
+    text-align: left;
+}
+
+.skillbar {
+    padding-left: 2%;
+    width: 93%;
+    margin: 20px 0;
+}
+
+.skillbar .sklstxt {
+    margin: 0;
+    padding: 0 0 10px 0;
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: 400;
+    color: #757575; 
+}
+
+.bar {
+    background-color: #ffffff; 
+    width: 100%;
+    height: 25px;
+    /* border-radius: 5px; */
+    overflow: hidden;
+}
+
+.progress {
+    background-color: #616161; 
+    height: 100%;
+    /* border-radius: 5px 0 0 5px; */
+    transition: width 1.5s ease; 
+}
+
+
+/* COUNTING CONTAINER  */
+
+#countcntnr {
+    margin-left: 2%;
+    margin-top: 5%;
+    width: 91%;
+    height: 150px;
+    background-color: #f1f1f1;
+    display: flex;
+}
+
+.nocnt {
+    height: 100%;
+    width: 25%;
+    background-color: #f1f1f1;
+}
+
+.cnttxt  {
+    color: #050505;
+    background-color: #f1f1f1;
+    text-align: center;
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: 400;
+    padding-top: 13%;
+}
+
+
+
+/* CV COWNLOAD BUTTON  */
+
+#cvbtn {
+    height: 65px;
+    /* background-color: #f1f1f1; */
+    width: 18%;
+    margin-left: 2%;
+}
+
+#downloadbtn  {
+    margin-top: 10%;
+    background-color: #ffffff; 
+    color: black;                   
+    text-align: center;        
+    text-decoration: none;     
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: 400;          
+    border: none;                   
+    cursor: pointer;           
+    transition: background-color 0.3s ease;
+}
+
+
+
+/* PROJECT VEIW */
+#Projectvw {
+    margin-top: 5%;
+    margin-left: 2%;
+    width: 91%;
+    height: 900px;
+    justify-content: space-between;
+    /* border: 1px solid white; */
+    /* background-color: #616161; */
+}
+
+#prjcttxthead {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 45px;
+    margin-bottom: 0;
+}
+
+#prjcln {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 45px;
+    margin-top: -15px;
+}
+
+#ssdiv {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 2%;
+    gap: 4%;
+}
+
+.sstg {
+    border: 1px solid white;
+    height: 230px;
+    width: 470px;
+    color: #ffffff;
+    transition: transform 0.5s ease;
+    cursor: pointer;
+    padding: 10px;
+    position: relative;
+}
+
+.sstg:hover {
+    transform: scale(1.1);
+}
+
+.project-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.project-box {
+    width: 300px; /* Adjust width as needed */
+    padding: 15px;
+    background-color: #f4f4f4; /* Adjust background color */
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.project-description {
+    max-height: 3.6em; /* Limits text to 2 lines (1.8em per line for readability) */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+.github-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+    display: inline-block;
+    background-color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.github-link:hover {
+    background-color: #555;
+}
+
+
+
+
+
+
+
+
+
+
+/* Fullscreen style */
+.fullscreen {
+    display: none; /* Hidden by default */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#fullscreen-content {
+    background-color: #333;
+    width: 75%;
+    height: 75%;
+    padding: 20px;
+    color: #fff;
+    overflow-y: auto;
+}
+
+.close-btn {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+
+
+/* CONTACT ME HERE */
+
+#cntctdiv {
+    /* border: 1px solid white; */
+    height: fit-content;
+    width: 91%;
+    margin-left: 2%;
+    margin-top: 5%;
+}
+
+
+#cntcttxt {
+    color: #f1f1f1;
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+#cntctln {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 45px;
+    margin-top: -15px;
+}
+
+.cntctlgo {
+    color: #fcffff;
+    background-color: #050505;
+    margin: 0;
+    padding: 2%;
+    padding-right: 2%;
+    /* font-size: 36px;
+    line-height: 36px;
+    font-weight: 400; */
+}
+
+
+
+.spn {
+    padding-left: 25px;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    background-color: #050505;
+    color: #757575;
+}
+
+
+
+
+/* INPUT BTN */
+
+#inptdv {
+    /* border: 1px solid white; */
+    width: 91%;
+    height: auto;
+    margin-left: 2%;
+    margin-top: 4%;
+}
+
+#inptpg {
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: 400;
+    color: #757575;
+}
+
+.inptbx {
+    height: 55px;
+    width: 100%;
+    margin-bottom: 2%;
+    background-color: #ffffff;
+    color: #757575;
+    padding-left: 2px;
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: 400;
+}
+
+
+
+
+#sndbtncntct {
+    background-color: #ffffff;
+    height: 60px;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none; /* Optional: Remove border */
+    cursor: pointer; /* Optional: Change cursor to pointer */
+    position: relative; /* Ensure content stays inside */
+    overflow: hidden; /* Prevent overflow */
+}
+
+.plnlgo {
+    color: #050505;
+    font-size: 15px;
+    margin-right: 8px; 
+    margin-bottom: 18px;
+    line-height: 15px;
+    font-weight: 400;
+    background-color: transparent; /* Remove background color */
+}
+
+
+#sndbtncntct:hover {
+    background-color: #a8a8a8;
+}
+
+
+
+
+/* FOOTER SOCIAL LOGO */
+
+#ftrsocial {
+    /* border: 1px solid white; */
+    height: 5%;
+    width: 91%;
+    margin-left: 2%;
+    margin-top: 5%;
+    padding: 0;
+}
+
+.scllgo {
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 400;
+    height: 5px;
+    width: 4%;
+    background-color: #050505;
+    color: #6a747a;
+    padding-left: 1%;
+    padding-bottom: 10%;
+    padding-top: 2%;
+    margin-bottom: 0;
+}
+
+#prdlst {
+    /* border: 1px solid white; */
+    background-color: #050505;
+    color: #6a747a;
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: 400;
+    margin-top: 0;
+    text-align: center;
+}
+
+ #prdlst2 {
+    background-color: #050505;
+    color: #6a747a;
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: 400;
+    text-decoration: underline;
+     text-align: center;
+     height: 5PX; 
+}
+
+
+#prdlst2:hover {
+    color: #4caf50;
+}
