@@ -607,3 +607,43 @@ height: 650px;
 #prdlst2:hover {
     color: #4caf50;
 }
+
+
+
+
+
+
+/* Mobile View */
+
+
+@media only screen and (max-width: 768px) {
+    #sidenav {
+        width: 100%; /* Make it full width on small screens */
+        height: auto; /* Adjust height to fit content */
+        position: relative; /* Avoid overlapping */
+    }
+    #maindv {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center;
+    }
+    #mainbodydiv {
+        width: 100%;
+        padding: 0 10px;
+    }
+    #countcntnr, #Projectvw, #Skillsdv {
+        width: 100%; /* Adjust widths for smaller screens */
+    }
+    #downloadbtn, .github-link {
+        font-size: 12px; /* Adjust font sizes */
+        padding: 5px;
+    }
+    #bdheading {
+        font-size: 36px; /* Smaller heading on mobile */
+        line-height: 48px;
+    }
+}
+
+img, video {
+    max-width: 100%;
+    height: auto; /* Maintain aspect ratio */
+}

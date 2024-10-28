@@ -37,7 +37,8 @@ function expandProject(title, videoPath) {
           Your browser does not support the video tag.
       </video>
       <div style="margin-top: 20px;">
-          <p>This project demonstrates the main functionalities with video walkthroughs. Here’s an overview of the project steps, challenges faced, and key outcomes.</p>
+          <p>This project demonstrates the main functionalities with video walkthroughs. Here’s an overview of the project.</p>
+          <p>This Project is Strictly Owned By Faiz Ansari Before Using it ask for Permission</p>
           <!-- Further details can be added here -->
       </div>
   `;
